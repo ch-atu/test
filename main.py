@@ -14,7 +14,7 @@ def test3():
 print('hello')
 
 
-print('你好')
+print('你不好')
 
 
 
