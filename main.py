@@ -1,15 +1,18 @@
-import time
+from flask import Flask,jsonify
+app = Flask(__name__)
+
+@app.route('/user')
+def user():
+    return 'hello world'
 
 
-def test():
-    print('hello world!')
 
-def test2():
-    print('hello world2')
+# app.run(host='0.0.0.0')
+# if __name__ == '__main__':
+#     app.run()
 
+app.run(host='172.16.0.11')
 
-def test3():
-    print('hello world3')
 
 
 
