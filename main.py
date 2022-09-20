@@ -1,6 +1,14 @@
 from flask import Flask,jsonify
 app = Flask(__name__)
-
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
 @app.route('/user')
 def user():
     return 'hello world'
@@ -12,7 +20,22 @@ def user():
 #     app.run()
 
 app.run(host='172.16.0.11')
-
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
 
 
 
