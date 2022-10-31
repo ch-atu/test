@@ -1,7 +1,5 @@
 import time
 
-print("asdhjasdlkjsda")
-
 
 def test():
     print('hello world!')
